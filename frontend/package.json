@@ -2,16 +2,16 @@
   "name": "llama-index-fullstack",
   "version": "0.1.0",
   "scripts": {
-    "dev": "NEXT_PUBLIC_CHAT_API=http://localhost:8000/api/chat next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "llamaindex": "0.0.38",
     "dotenv": "^16.3.1",
+    "llamaindex": "0.0.38",
     "nanoid": "^5",
-    "next": "^13",
+    "next": "^13.5.6",
     "react": "^18",
     "react-dom": "^18"
   },
